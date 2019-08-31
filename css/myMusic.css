@@ -1,0 +1,85 @@
+.big-ul li:nth-child(2){
+	background-color: #31c27c;
+	color: white;
+}
+.big-ul li:nth-child(1){
+	background-color: white;
+}
+.big-ul li:nth-child(1) a{
+	color: black;
+}
+.big-ul li:nth-child(1) a:hover{
+	color: #31c27c;
+}
+.big-ul li:nth-child(2) a:hover{
+	color: white;
+}
+.big-ul li:nth-child(2) a{
+	color: white;
+}
+
+/*banner*/
+.my-banner{
+	height: 622px;
+	width: 100%;
+	background-image: url('../images/bg_profile_unlogin.jpg');
+	background-size: 100% 100%;
+	color: white;
+	overflow: hidden;
+}
+.my-mid{
+	width: 1200px;
+	height: 205px;
+	margin: 215px auto 202px;
+}
+.my-mid h1{
+	width: 735px;
+	line-height: 57px;
+	margin: 0px auto 33px;
+	font-size: 56px;
+	font-weight: normal;
+	transition: 1s;
+	animation: priva linear 0.5s 1;
+}
+.my-mid h5{
+	width: 345px;
+	line-height: 21px;
+	margin: 0px auto 39px;
+	font-size: 23px;
+	letter-spacing: 1px;
+	font-weight: normal;
+	transition: 1s;
+	animation: priva linear 0.5s 0.2s 1;
+}
+.first-box{
+	width: 128px;
+	height: 48px;
+	margin: 0px auto;
+	transition: 1s;
+	animation: priva linear 0.5s 0.4s 1;
+}
+.first{
+	width: 128px;
+	height: 48px;
+	border: 1px solid #31c27c; 
+	background-color: #31c27c;
+	font-size: 20px;
+	color: white;
+	border-radius: 2px;
+}
+.first:hover{
+	background-color: ;
+}
+@keyframes priva{
+	0%{
+		transform: translateY(50px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+.login{
+	z-index: 0;
+}
